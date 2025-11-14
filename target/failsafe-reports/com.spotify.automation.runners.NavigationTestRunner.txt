@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.spotify.automation.runners.NavigationTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.704 s <<< FAILURE! -- in com.spotify.automation.runners.NavigationTestRunner
+Navegacion a Playlists Populares.Navegacion exitosa a una categoria de Playlist -- Time elapsed: 0.601 s <<< FAILURE!
+java.lang.AssertionError: Undefined default URL for page object NavigationPage
+	at net.serenitybdd.core.pages.PageUrls.verified(PageUrls.java:78)
+	at net.serenitybdd.core.pages.PageUrls.getStartingUrl(PageUrls.java:56)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:882)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:871)
+	at com.spotify.automation.steps.NavigationStepDefinitions.que_el_usuario_esta_en_la_pagina_principal_de_spotify(NavigationStepDefinitions.java:25)
+	at ✽.que el usuario está en la página principal de Spotify(file:///C:/Users/se302/Documents/PROGRAMACION/spotify-qa-automation/src/test/resources/features/navigation_spotify.feature:7)
+

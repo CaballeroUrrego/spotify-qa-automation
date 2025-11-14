@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.spotify.automation.runners.LoginTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.768 s <<< FAILURE! -- in com.spotify.automation.runners.LoginTestRunner
+Autenticación de Usuarios en Spotify Web.01. Login con credenciales inválidas -- Time elapsed: 0.496 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'ingreso un correo ficticio y contraseña inválida' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("ingreso un correo ficticio y contraseña inválida")
+public void ingresoUnCorreoFicticioYContraseñaInválida() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("se debe mostrar el mensaje de error: {string}")
+public void seDebeMostrarElMensajeDeError(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
