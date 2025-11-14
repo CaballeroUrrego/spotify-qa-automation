@@ -1,7 +1,8 @@
+C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\steps\LoginSteps.java
 C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\pages\NavigationPage.java
 C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\pages\SearchPage.java
-C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\runners\LoginTestRunner.java
+C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\steps\SearchSteps.java
 C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\pages\LoginPage.java
+C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\steps\NavigationSteps.java
 C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\NavigationActions.java
-C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\automation\runners\NavigationTestRunner.java
 C:\Users\se302\Documents\PROGRAMACION\spotify-qa-automation\src\test\java\com\spotify\LoginActions.java

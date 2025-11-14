@@ -1,7 +1,0 @@
-com\spotify\automation\runners\LoginTestRunner.class
-com\spotify\automation\runners\NavigationTestRunner.class
-com\spotify\automation\pages\NavigationPage.class
-com\spotify\NavigationActions.class
-com\spotify\LoginActions.class
-com\spotify\automation\pages\LoginPage.class
-com\spotify\automation\pages\SearchPage.class
