@@ -1,0 +1,51 @@
+```
+└── 📁spotify-qa-automation
+        
+    └── 📁src
+        └── 📁test
+            └── 📁java
+                └── 📁com
+                    └── 📁spotify
+                        └── 📁automation
+                            └── 📁pages
+                                ├── LoginPage.java
+                                ├── NavigationPage.java
+                                ├── SearchPage.java
+                            └── 📁runners
+                                ├── LoginTestRunner.java
+                                ├── NavigationTestRunner.java
+                            └── 📁steps
+                                ├── NavigationStepDefinitions.java
+                                ├── SearchPage.java
+                        ├── LoginActions.java
+            └── 📁resources
+                └── 📁features
+                    ├── login_spotify.feature
+                    ├── navigation_spotify.feature
+                    ├── search_spotify.feature
+                ├── serenity.properties
+    └── 📁target
+        
+        └── 📁test-classes
+            └── 📁com
+                └── 📁spotify
+                    └── 📁automation
+                        └── 📁pages
+                            ├── LoginPage.class
+                            ├── NavigationPage.class
+                            ├── SearchPage.class
+                        └── 📁runners
+                            ├── LoginTestRunner.class
+                            ├── NavigationTestRunner.class
+                        └── 📁steps
+                            ├── NavigationStepDefinitions.class
+                            ├── SearchPage.class
+                    ├── LoginActions.class
+            └── 📁features
+                ├── login_spotify.feature
+                ├── navigation_spotify.feature
+                ├── search_spotify.feature
+            ├── serenity.properties
+        ├── spotify-qa-automation-1.0-SNAPSHOT.jar
+    └── pom.xml
+```

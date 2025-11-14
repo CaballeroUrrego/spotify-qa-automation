@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.spotify.automation.runners.NavigationTestRunner" time="0.052" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.spotify.automation.runners.LoginTestRunner" time="1.908" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,42 +58,54 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Navegacion exitosa a una categoria de Playlist" classname="Navegacion a Playlists Populares" time="0.019">
-    <error message="The step &apos;que el usuario está en la página principal de Spotify&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que el usuario está en la página principal de Spotify&quot;)&#10;public void que_el_usuario_está_en_la_página_principal_de_spotify() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;el usuario navega a la sección de Busqueda&quot;)&#10;public void el_usuario_navega_a_la_sección_de_busqueda() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;selecciona la primera categoria de playlist popular&quot;)&#10;public void selecciona_la_primera_categoria_de_playlist_popular() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;se debe mostrar la pagina de detalle de la playlist o categoria&quot;)&#10;public void se_debe_mostrar_la_pagina_de_detalle_de_la_playlist_o_categoria() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
-The step 'que el usuario está en la página principal de Spotify' and 3 other step(s) are undefined.
+  <testcase name="01. Login con credenciales inválidas" classname="Autenticación de Usuarios en Spotify Web" time="0.497">
+    <error message="The step &apos;que estoy en la página de login de Spotify&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estoy en la página de login de Spotify&quot;)&#10;public void queEstoyEnLaPáginaDeLoginDeSpotify() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;ingreso un correo ficticio y contraseña inválida&quot;)&#10;public void ingresoUnCorreoFicticioYContraseñaInválida() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;se debe mostrar el mensaje de error: {string}&quot;)&#10;public void seDebeMostrarElMensajeDeError(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'que estoy en la página de login de Spotify' and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
-@Given("que el usuario está en la página principal de Spotify")
-public void que_el_usuario_está_en_la_página_principal_de_spotify() {
+@Given("que estoy en la página de login de Spotify")
+public void queEstoyEnLaPáginaDeLoginDeSpotify() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@When("el usuario navega a la sección de Busqueda")
-public void el_usuario_navega_a_la_sección_de_busqueda() {
+@When("ingreso un correo ficticio y contraseña inválida")
+public void ingresoUnCorreoFicticioYContraseñaInválida() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@When("selecciona la primera categoria de playlist popular")
-public void selecciona_la_primera_categoria_de_playlist_popular() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("se debe mostrar la pagina de detalle de la playlist o categoria")
-public void se_debe_mostrar_la_pagina_de_detalle_de_la_playlist_o_categoria() {
+@Then("se debe mostrar el mensaje de error: {string}")
+public void seDebeMostrarElMensajeDeError(String string) {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
 
 ]]></error>
-    <system-err><![CDATA[[main] INFO  - Test Suite Started: Navegacion a Playlists Populares
-[main] INFO  - Test Suite Started: Navegacion a Playlists Populares
+    <system-err><![CDATA[[main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+[main] INFO  - Test Suite Started: Autenticación de Usuarios en Spotify Web
+[main] INFO  - Test Suite Started: Autenticación de Usuarios en Spotify Web
 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Navegacion exitosa a una categoria de Playlist(navegacion-a-playlists-populares;navegacion-exitosa-a-una-categoria-de-playlist)
+01. Login con credenciales inválidas(autenticación-de-usuarios-en-spotify-web;01.-login-con-credenciales-inválidas)
 --------------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
