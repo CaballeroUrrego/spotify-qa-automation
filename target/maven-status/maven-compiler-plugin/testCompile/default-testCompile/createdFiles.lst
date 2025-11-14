@@ -1,5 +1,6 @@
-com\spotify\automation\runners\LoginTestRunner.class
 com\spotify\automation\runners\NavigationTestRunner.class
 com\spotify\automation\steps\NavigationStepDefinitions.class
 com\pages\NavigationPage.class
+com\LoginPage.class
 com\spotify\automation\steps\LoginStepDefinitions.class
+com\spotify\automation\LoginActions.class
