@@ -1,21 +1,27 @@
 ```
 └── 📁spotify-qa-automation
-       
+        
     └── 📁src
         └── 📁test
             └── 📁java
                 └── 📁com
                     └── 📁spotify
                         └── 📁automation
+                            └── 📁actions
+                                ├── LoginActions.java
+                                ├── NavigationActions.java
+                                ├── SearchActions.java
                             └── 📁pages
-                                ├── LoginPage.java
-                                ├── NavigationPage.java
+                                ├── LoginActions.java
+                                ├── NavigationActions.java
                                 ├── SearchPage.java
                             └── 📁runners
                                 ├── LoginTestRunner.java
                                 ├── NavigationTestRunner.java
-                        ├── LoginActions.java
-                        ├── NavigationActions.java
+                            └── 📁steps
+                                ├── LoginSteps.java
+                                ├── NavigationSteps.java
+                                ├── SearchSteps.java
             └── 📁resources
                 └── 📁features
                     ├── login_spotify.feature
@@ -23,43 +29,34 @@
                     ├── search_spotify.feature
                 ├── serenity.properties
     └── 📁target
-        └── 📁failsafe-reports
-            ├── com.spotify.automation.runners.LoginTestRunner.txt
-            ├── com.spotify.automation.runners.NavigationTestRunner.txt
-            ├── failsafe-summary.xml
-            ├── TEST-com.spotify.automation.runners.LoginTestRunner.xml
-            ├── TEST-com.spotify.automation.runners.NavigationTestRunner.xml
         └── 📁generated-test-sources
             └── 📁test-annotations
-        └── 📁maven-archiver
-            ├── pom.properties
         └── 📁maven-status
             └── 📁maven-compiler-plugin
                 └── 📁testCompile
                     └── 📁default-testCompile
                         ├── createdFiles.lst
                         ├── inputFiles.lst
-        └── 📁site
-            └── 📁serenity
-                └── 
+        └── 📁test-classes
             └── 📁com
                 └── 📁spotify
                     └── 📁automation
+                        └── 📁actions
+                            ├── LoginActions.class
+                            ├── NavigationActions.class
+                            ├── SearchActions.class
                         └── 📁pages
-                            ├── LoginPage.class
-                            ├── NavigationPage.class
+                            ├── LoginActions.class
+                            ├── NavigationActions.class
                             ├── SearchPage.class
-                        └── 📁runners
-                            ├── LoginTestRunner.class
-                            ├── NavigationTestRunner.class
-                    ├── LoginActions.class
-                    ├── NavigationActions.class
+                        └── 📁steps
+                            ├── LoginSteps.class
+                            ├── NavigationSteps.class
+                            ├── SearchSteps.class
             └── 📁features
                 ├── login_spotify.feature
                 ├── navigation_spotify.feature
                 ├── search_spotify.feature
             ├── serenity.properties
-        ├── spotify-qa-automation-1.0-SNAPSHOT.jar
-    ├── pom.xml
-    └── Untitled-1.md
+    └── pom.xml
 ```

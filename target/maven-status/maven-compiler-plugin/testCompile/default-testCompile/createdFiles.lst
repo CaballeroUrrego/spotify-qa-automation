@@ -1,0 +1,11 @@
+com\spotify\automation\runners\LoginTestRunner.class
+com\spotify\automation\pages\NavigationPage.class
+com\spotify\automation\pages\LoginPage.class
+com\spotify\automation\pages\SearchPage.class
+com\spotify\automation\steps\NavigationSteps.class
+com\spotify\automation\runners\NavigationTestRunner.class
+com\spotify\automation\actions\LoginActions.class
+com\spotify\automation\actions\SearchActions.class
+com\spotify\automation\steps\LoginSteps.class
+com\spotify\automation\steps\SearchSteps.class
+com\spotify\automation\actions\NavigationActions.class

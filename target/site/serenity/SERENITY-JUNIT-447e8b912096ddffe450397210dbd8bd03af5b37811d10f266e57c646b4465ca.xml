@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Navegacion a Playlists Populares" skipped="0" tests="1" time="23.06" timestamp="2025-11-14 08:25:03"><testcase name="Navegacion exitosa a una categoria de Playlist"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+com.spotify.automation.pages.NavigationPage.navigateToSearchPage(NavigationPage.java:24)&#13;
+com.spotify.automation.actions.NavigationActions.navigateToSearch(NavigationActions.java:19)&#13;
+com.spotify.automation.steps.NavigationSteps.navegaASeccionBusqueda(NavigationSteps.java:21)&#13;
+</system-err></testcase></testsuite>
